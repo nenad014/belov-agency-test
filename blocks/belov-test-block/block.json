@@ -1,0 +1,19 @@
+{
+    "name": "acf/belov-test-block",
+    "title": "Belov Test Block",
+    "description": "A custom Belov Test block.",
+    "style": [
+        "file:./belov-test-block.css"
+    ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": [
+        "belov-test-block",
+        "quote"
+    ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "belov-test-block.php"
+    },
+    "align": "full"
+}
