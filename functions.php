@@ -42,7 +42,4 @@ function include_inc_files() {
 
 include_inc_files();
 
-add_action( 'init', 'register_acf_blocks' );
-function register_acf_blocks() {
-    register_block_type( __DIR__ . '/blocks/belov-test-block' );
-}
+include_once( get_template_directory() . '/blocks.php' );
